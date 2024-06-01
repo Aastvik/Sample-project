@@ -1,0 +1,8 @@
+name: Lint test Deploy
+on: issues
+jobs:
+    issue-event:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Output the Issue Event details
+              run: echo ${{toJSON(github.event)}}
