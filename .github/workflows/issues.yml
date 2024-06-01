@@ -1,4 +1,4 @@
-name: Lint test Deploy
+name: Issues Trigger Workflow
 on: issues
 jobs:
     issue-event:
